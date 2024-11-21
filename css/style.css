@@ -1,0 +1,146 @@
+@font-face {
+  font-family: SuperMario256;
+  src: url('../fonts/SuperMario256.ttf');
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #DFDFDF;
+  color: #21242B;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #21242B;
+    color: #DFDFDF;
+  }
+
+  .creator-details a {
+    text-decoration: underline;
+    font-style: italic;
+    color: #FFFFFF !important;
+  }
+}
+
+.start-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1280px;
+  height: 530px;
+  margin: 0 auto;
+  border: none;
+  background: url('../images/start-screen.png');
+}
+
+.main-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-screen {
+  position: relative;
+  width: auto;
+  height: 100%;
+  border: none;
+  background: url('../images/bg.png');
+  display: none;
+  margin: 0 auto;
+}
+
+.creator-details {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 16px;
+  line-height: 12px;
+  padding-left: 5vw;
+  margin: 0;
+}
+
+.creator-details a {
+  text-decoration: underline;
+  font-style: italic;
+  color: #000000;
+}
+
+.score-wrapper {
+  padding-left: 40px;
+  width: 1240px;
+  margin: 0 auto;
+  height: 50px;
+  display: none;
+  border: none;
+  line-height: 50px;
+  font-size: 20px;
+  background-color: #ADD1F3;
+  font-family: SuperMario256;
+  color: #FFFFFF;
+}
+
+.life-count {
+  background: url('../images/mario-head.png') left center no-repeat;
+  width: 100px;
+  float: left;
+  padding-left: 40px;
+}
+
+.coin-score {
+  background: url('../images/coin.png') left center no-repeat;
+  width: 150px;
+  float: left;
+  padding-left: 40px;
+}
+
+.level-num {
+  width: 150px;
+  float: left;
+}
+
+.total-score {
+  float: left;
+}
+
+.start-btn {
+  width: 200px;
+  height: 50px;
+  color: #FFFFFF;
+  background: url('../images/start-btn.png');
+  position: absolute;
+  bottom: 100px;
+  left: 252px;
+  border: 2px solid #000000;
+}
+
+.back-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 200px;
+  height: 50px;
+  background: url('../images/back-btn.png');
+  color: #FFFFFF;
+  border: 2px solid black;
+  margin: 10px;
+  display: none;
+}
+
+.loading-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-family: SuperMario256;
+  text-align: center;
+  padding: 100px;
+  color: #FFFFFF;
+}
