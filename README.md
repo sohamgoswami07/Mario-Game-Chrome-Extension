@@ -40,11 +40,11 @@ Mario Game Chrome Extension: Automatic Fun During Network Errors!
 Sure, just open an issue, point out errors, and what not. Wanna fix something yourselves, you're welcome to open a pull request and I appreciate it.  
 
 # Creator
-Mario game taken from <a href="https://github.com/VarunBanka">Varun Banka</a>
+Mario game taken from <a href="https://github.com/VarunBanka">Varun Banka</a>  
 Chrome extension created and developed by Soham Goswami..  
 
 # For any kind of coding issue or queries, feel free to connect in  
 LinkedIn : https://www.linkedin.com/in/soham-goswami-2a5b84143/  
 
-<i>f you enjoysed this game, don't forget to give a star 🌟</i>  
-Thanks for showing interest..
+<i>If you enjoysed this game, don't forget to give a star 🌟</i>  
+<i>Thanks for showing interest..</i>
