@@ -3,21 +3,34 @@
 <head>
   <title>Mario Game | Chrome Extension</title>
   <style>
+    @font-face {
+      font-family: SuperMario256;
+      src: url('../fonts/SuperMario256.ttf');
+    }
+
     body {
+      position: relative;
       width: 480px;
       height: 192px;
       font-family: Arial, sans-serif;
-      margin: 0px;
       padding: 0px;
       background: url('./images/popup.png');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       margin: 16px;
+      color: #FFFFFF;
+    }
+
+    .content {
+      position: absolute;
+      width: 50vw;
+      height: 100%;
+      color: #FFFFFF;
     }
 
     h2 {
-      font-weight: bold;
+      font-family: SuperMario256;
       font-size: 16px;
     }
 
@@ -28,15 +41,17 @@
     a {
       text-decoration: underline;
       font-style: italic;
+      color: #FFFFFF;
     }
   </style>
 </head>
 <body>
-  <h2>Jump into adventure and save the Kingdom with Mario</h2>
-  <p>Replace the Chrome Dino game with the Mario game during network errors.</p>
-  
-  <p>Developed by <a target="_blank" href="https://github.com/sohamgoswami07">Soham Goswami</a></p>
-  <p>Mario game code taken from <a target="_blank" href="https://varunbanka.github.io/">Varun Banka</a> | <a href="https://github.com/VarunBanka">Github</a></p>
-  <p></p>
+  <div class="content">
+    <h2>Jump into adventure and save the Kingdom with Mario</h2>
+    <p>Replace the Chrome Dino game with the Mario game during network errors.</p>
+    
+    <p>Developed by <a target="_blank" href="https://github.com/sohamgoswami07">Soham Goswami</a></p>
+    <p>Mario game code taken from <a target="_blank" href="https://varunbanka.github.io/">Varun Banka</a> | <a href="https://github.com/VarunBanka">Github</a></p>
+  </div>
 </body>
 </html>
